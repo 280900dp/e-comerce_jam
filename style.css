@@ -1,0 +1,255 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.landing-page {
+    background: url(jamkoleksi/cover.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(0.7);
+}
+.card {
+    transition: all 0.3s;
+}
+.card:hover{
+    transform: scale(1.05);
+
+}
+
+.card img {
+    height: 500px;
+}
+
+.card-height {
+    height: 1000px;
+}
+
+.card1 {
+    transition: all 0.3s;
+}
+.card1:hover{
+    transform: scale(1.05);
+
+}
+/* BEST SELLER */
+.best-seller {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .best-seller-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .best-seller-item {
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .best-seller-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .best-seller-item h3 {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .best-seller-item p {
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
+  .best-seller-item .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+/* PROMO */
+/* .promo {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .promo-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .promo-item {
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .promo-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .promo-item h3 {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .promo-item p {
+    margin-top: 5px;
+  }
+  
+  .promo-item .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+  } */
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(201, 230, 220)
+  }
+  
+  header {
+    background-color: #2a2c30;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  h1 {
+    color: #ccc;
+    margin: 0;
+  }
+  
+  .promo {
+    padding: 2em;
+  }
+  
+  .promo__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .promo__image {
+    width: 300px;
+    height: auto;
+    margin-right: 2em;
+  }
+  
+  .promo__content {
+    max-width: 500px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  p {
+    line-height: 1.5;
+    color: #007bff
+  }
+  
+  .promo__button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #e2ecf7;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  
+  /* KATEGORI */
+  .categories {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .category-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .category-item {
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .category-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .category-item h3 {
+    font-weight: bold;
+  }
+  
+  .category-item a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  /* kontak */
+  .contact {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  

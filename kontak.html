@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kontak</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top"
+      style="background-color: #000; height: 80px"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="jamkoleksi/logo-removebg-preview.png"
+            alt=""
+            width="150px"
+            height="100px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="bestseller.html"
+                >Best Seller</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="promo.html"
+                >Promo</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Kategori
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="kategori.html">Pria</a></li>
+                <li>
+                  <a class="dropdown-item" href="kategori.html">Wanita</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="kontak.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-light" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- section -->
+    <section class="contact">
+      <h2>Hubungi Kami</h2>
+      <p>Punya pertanyaan atau ingin memberi masukan? Hubungi kami!</p>
+      <div class="contact-info">
+        <p><strong>Jam Tangan Kita</strong></p>
+        <p>Alamat: Jalan Jam Tangan No. 1</p>
+        <p>Email: info@jamtangankita.com</p>
+        <p>Telepon: +62 21 555-1234</p>
+        <a
+          href="https://www.google.com/maps/search/?api=1&query=Jam+Tangan+Kita"
+          target="_blank"
+          >Buka di Google Maps</a
+        >
+      </div>
+      <form action="/contact-form" method="post">
+        <div class="form-group">
+          <label for="nama">Nama:</label>
+          <input
+            type="text"
+            id="nama"
+            name="nama"
+            class="form-control"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="form-control"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="pesan">Pesan:</label>
+          <textarea
+            id="pesan"
+            name="pesan"
+            class="form-control"
+            rows="5"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+      </form>
+    </section>
+  </body>
+</html>
